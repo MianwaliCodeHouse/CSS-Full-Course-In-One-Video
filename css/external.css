@@ -1,0 +1,44 @@
+/* CSS syntax */
+
+/* selector{
+  property-name: value;
+} */
+
+/* What is CSS Selectors? */
+/* select the specific html element to style it  */
+
+/* Types of selectors (universal, type or tags, class, ID) */
+
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* div{
+  background-color: rebeccapurple;
+} */
+
+.text-white{
+  color: white;
+}
+.bg-primary{
+  background-color: blue;
+}
+.m-t{
+  margin-top: 10px;
+}
+.m-b{
+  margin-bottom: 10px;
+}
+
+
+#Banner{
+  margin: 0;
+  padding: 2rem;
+  background-color: rgb(6, 6, 6);
+  color: white;
+  text-shadow: 1px 3px 10px rgb(49, 49, 49);
+  font-size: 4rem;
+  text-align: center;
+}

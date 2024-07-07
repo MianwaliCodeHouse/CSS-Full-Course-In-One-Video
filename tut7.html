@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Backgrounds and Borders</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        width: 100vw;
+        height: 100vh;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.874),
+            rgba(0, 0, 0, 0.806)
+          ),
+          url(https://www.shutterstock.com/shutterstock/photos/2070469883/display_1500/stock-photo-abstract-background-in-blue-and-purple-neon-glow-colors-on-black-speed-of-light-in-galaxy-2070469883.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+      .content {
+        padding: 1rem;
+        margin: 2rem;
+        margin-bottom: 50rem;
+        border: 1px solid;
+        border-radius: 1rem 1rem 1rem 0rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hero Image</h1>
+    </div>
+    <div class="content">
+      <h1>Content Body</h1>
+    </div>
+  </body>
+</html>

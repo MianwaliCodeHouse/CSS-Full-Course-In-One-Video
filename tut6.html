@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Model Issue</title>
+    <style>
+      body {
+        padding: 2rem;
+      }
+      .outerbox {
+        padding: 1rem;
+        border: 3px solid;
+      }
+      .innerbox {
+        font-size: 2rem;
+        padding: 2rem;
+        width: 100%;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outerbox">
+      <input type="text" class="innerbox" />
+    </div>
+  </body>
+</html>
